@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Translator</title>
+</head>
+
+<body>
+    <div id="container">
+        <section class="content">
+            <select id="ddlFromLanguages" class="form-control">
+                <option value="detect">Detect Language</option>
+            </select>
+            <select id="ddlToLanguages" class="form-control">
+                <option>Choose a language</option>
+            </select>
+        </section>
+        <section class="content">
+            <textarea id="textToTranslate" class="txa form-control"></textarea>
+            <i id="listenToLanguage" class="fas fa-volume-up icons bottom-right"></i>
+            <i id="speak" class="fas fa-microphone icons bottom-left"></i>
+            <i id="listenFromLanguage" class="fas fa-volume-up icons bottom-right"></i>
+            <textarea id="translatedText" class="txa form-control"></textarea>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
